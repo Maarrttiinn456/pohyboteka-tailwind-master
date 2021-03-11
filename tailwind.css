@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'sheenline script';
+    src: url('./public/fonts/sheenlinescript.woff2') format('woff2'), url('./public/fonts/sheenlinescript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* montserrat-regular - latin-ext */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./public/fonts/montserrat-v15-latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/montserrat-v15-latin-ext-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-alternates-300 - latin-ext */
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''), url('./public/fonts/montserrat-alternates-v12-latin-ext-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/montserrat-alternates-v12-latin-ext-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-alternates-regular - latin-ext */
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./public/fonts/montserrat-alternates-v12-latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/montserrat-alternates-v12-latin-ext-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-alternates-600 - latin-ext */
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''), url('./public/fonts/montserrat-alternates-v12-latin-ext-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/montserrat-alternates-v12-latin-ext-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-alternates-700 - latin-ext */
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('./public/fonts/montserrat-alternates-v12-latin-ext-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/montserrat-alternates-v12-latin-ext-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* manrope-regular - latin-ext */
+
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./public/fonts/manrope-v4-latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/manrope-v4-latin-ext-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* old-standard-tt-regular - latin-ext */
+
+@font-face {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('./public/fonts/old-standard-tt-v13-latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('./public/fonts/old-standard-tt-v13-latin-ext-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@layer utilities {
+    .rounded-tlbr-half {
+        border-radius: 0px 0px;
+    }
+    .rounded-tlbr-small {
+        border-radius: 0px 0px;
+    }
+    @media (min-width: 768px) {
+        .rounded-tlbr-half {
+            border-radius: 8rem 0px;
+        }
+        .rounded-tlbr-small {
+            border-radius: 3rem 0px;
+        }
+        .quotation {
+            font-size: 17.5rem;
+        }
+    }
+}
+
+.quotation {
+    font-family: 'Old Standard TT', serif;
+    font-size: 20vw;
+    color: #B48788;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #B48788;
+    z-index: 10;
+}
+
