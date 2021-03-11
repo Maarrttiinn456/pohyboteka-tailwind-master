@@ -140,24 +140,32 @@ export default function Homepage() {
 					<hr className=" w-7 border-black mb-8 md:mb-10 ml-6 sm:ml-24" />
 
 					<div className="felx flex-col mx-6 sm:mx-24">
-						<div className="w-full md:w-2/3 lg:w-1/2 ">
-							<p className="mb-3">
-								40 cvičebních videí, ve kterých vedu k funkčnosti a ideálního propojení pánevního dna s HSS
-							</p>
-							<p className="mb-3">
-								20 krátkých 5 minutových videí pro zacvičení se během dne
-							</p>
-							<p className="mb-3">
-								1,5 h přednáška Pánevní dno jako nové + cvičební lekce pro zdravé a funkční pánevní dno, ketré jsem pro vás natočila
-							</p>
-							<p className="mb-3">
-								1,5 h přednáška Jizvy a souvisloti v těle s fyzioterapeutkou Silvií Krčmovou
-							</p>
-							<p className="mb-10">
-								a další rozhovory
-							</p>
+						<div className="flex flex-row">
+							<div className="w-full md:w-2/3 lg:w-1/2 ">
+								<p className="mb-3">
+									40 cvičebních videí, ve kterých vedu k funkčnosti a ideálního propojení pánevního dna s HSS
+								</p>
+								<p className="mb-3">
+									20 krátkých 5 minutových videí pro zacvičení se během dne
+								</p>
+								<p className="mb-3">
+									1,5 h přednáška Pánevní dno jako nové + cvičební lekce pro zdravé a funkční pánevní dno, ketré jsem pro vás natočila
+								</p>
+								<p className="mb-3">
+									1,5 h přednáška Jizvy a souvisloti v těle s fyzioterapeutkou Silvií Krčmovou
+								</p>
+								<p className="mb-10">
+									a další rozhovory
+								</p>
+							</div>
+							<div className="w-1/2 h-full relative hidden lg:block">
+								<Flower
+									className="absolute w-2/4 -right-80 -top-36 transform -rotate-45"
+									fill="#E3E3E3"
+								/>
+							</div>
 						</div>
-						
+					
 							
 						<div className="relative flex flex-col md:flex-row text-sm">
 							<div className=" w-full md:w-1/2    mr-0 md:mr-8  mb-10 md:mb-0 ">
@@ -168,11 +176,13 @@ export default function Homepage() {
 								Pokud budete chtít pokračovat a prodlužovat si možnosti využívat dál neomezeně veškerý obsah v dalším období, jednoduše si objednáte znovu.
 								</p>
 
-								<p>Lekce tvořím s láskou, úsměvem a radostí</p>
-
-								
-									
-								
+								<p>Lekce tvořím s láskou, úsměvem a radostí</p>							
+								<div className="w-1/2 h-full relative hidden lg:block">
+								<Flower
+									className="absolute w-3/4  -left-80 -top-80 "
+									fill="#E3E3E3"
+								/>
+								</div>
 							</div>
 							<div className="w-full md:w-1/2   ">
 								<p className="mb-3">Zasložla jsem pohybotéku proto, abych přinesla pohyb  vlastním tělem poznání o tobě. <br/>
