@@ -213,7 +213,7 @@ export default function Homepage() {
 								Tím budete ze získaných informací dělat nový zvyk, který se stane vaší součástí a časem i vaší přirozeností. Opakováním se z toho stane automatizmus, který se bude dít sám. 
 								A to miluju, jemně, zlehka, smysluplně se o sebe starat, tak aby mi to zabralo co nejméně času a navíc to byla zábava. Miluju chůzi a procházky.
 								<span className="absolute bottom-0 right-0 text-center border-2 border-white uppercase text-white text-lg lg:text-xl font-medium mr-6 sm:mr-24 py-1 px-2 sm:px-6 mt-12  rounded-tl-xl rounded-br-xl">
-									shlédnout lekci zdarma
+									<a href="#">shlédnout lekci zdarma</a> 
 								</span>
 							</p>
 							
